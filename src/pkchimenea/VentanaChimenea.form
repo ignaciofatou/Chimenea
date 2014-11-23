@@ -26,36 +26,36 @@
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jBLenhaFina" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="jBPasarHora" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jBLenhaMediana" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jPBTemperatura" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jTFTemperatura" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jTFTemperatura" min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="imagenChimenea" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="jBLenhaFina" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" max="-2" attributes="0"/>
-                              <Component id="jBPasarHora" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="jBLenhaMediana" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jBLenhaGorda" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jPBTemperatura" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLFoto" max="32767" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="jBEncender" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jBApagar" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <Component id="jBLenhaGorda" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jBEncender" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBApagar" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -63,13 +63,13 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTFTemperatura" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFTemperatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jPBTemperatura" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -78,15 +78,16 @@
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jBLenhaMediana" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jBLenhaGorda" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="jLFoto" min="-2" pref="132" max="-2" attributes="0"/>
+                  <Component id="imagenChimenea" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jBEncender" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jBApagar" alignment="0" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jBLenhaGorda" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="jBApagar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBEncender" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -100,6 +101,9 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTFTemperatura">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jPBTemperatura">
     </Component>
@@ -107,33 +111,51 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="A&#xf1;adir le&#xf1;a fina"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBLenhaFinaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBLenhaMediana">
       <Properties>
         <Property name="text" type="java.lang.String" value="A&#xf1;adir le&#xf1;a mediana"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBLenhaMedianaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBLenhaGorda">
       <Properties>
         <Property name="text" type="java.lang.String" value="A&#xf1;adir le&#xf1;a gorda"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBLenhaGordaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBPasarHora">
       <Properties>
         <Property name="text" type="java.lang.String" value="Pasar una hora"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLFoto">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBPasarHoraActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBEncender">
       <Properties>
         <Property name="text" type="java.lang.String" value="Encender"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBEncenderActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBApagar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Apagar"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBApagarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javabean.chimenea.ChimeneaBean" name="imagenChimenea">
     </Component>
   </SubComponents>
 </Form>
